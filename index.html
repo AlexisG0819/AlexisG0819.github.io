@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="app.js" async></script>
+    <link rel="stylesheet" href="estilos.css" />
+    <title>Tienda</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tienda de productos digitales</h1>
+      <div class="buscador">
+        <div class="menu_hamburguer">
+          <img src="iconos/menu.svg" alt="menu" class="menu_img ">
+        </div>
+        
+        <input type="text" class="input-buscar" id="input-buscar" placeholder="¿Que deseas buscar?">
+        <button class="btn-buscar">Buscar</button>
+      </div>
+      
+      <nav class="menu">
+        <section class="menu-container">
+
+            <ul class="menu_links">
+
+                <li class="menu_item">
+                    <a href="#" class="menu_link menu_link1">Inicio</a>
+                </li>
+                
+               <li class="menu_item menu_item--show">
+                    <a href="#" class="menu_link menu_link1">Categorias<img src="iconos/arrow.svg" class="menu_arrow"></a>
+
+                    <ul class="menu_nesting">
+                        <li class="menu_inside">
+                            <a href="/Categoria1.html" class="menu_link menu_link---inside">Categoria 1</a>
+                        </li>
+                        <li class="menu_inside">
+                            <a href="#" class="menu_link menu_link---inside">Categoria 2</a>
+                          </li>
+                        <li class="menu_inside">
+                            <a href="#" class="menu_link menu_link---inside">Categoria 3</a>
+                        </li>
+                    </ul>
+               </li>
+
+               <li class="menu_item menu_item--show">
+                    <a href="#" class="menu_link menu_link1">Servicios <img src="iconos/arrow.svg" class="menu_arrow"></a>
+
+                    <ul class="menu_nesting">
+                        <li class="menu_inside">
+                            <a href="#" class="menu_link menu_link---inside">Servicio 1</a>
+                        </li>
+                        <li class="menu_inside">
+                            <a href="#" class="menu_link menu_link---inside">Servicio 2</a>
+                        </li>
+                        <li class="menu_inside">
+                            <a href="#" class="menu_link menu_link---inside">Servicio 3</a>
+                        </li>
+                    </ul>
+                <li/>
+
+                <li class="menu_item">
+                    <a href="#" class="menu_link menu_link1">Contacto</a>
+                </li>
+            </ul>
+
+        </section>
+    </nav>
+
+    </header>
+    <section class="contenedor">
+      <!--Contenedor de los elementos-->
+      <div class="contenedor-items">
+        <div class="item">
+          <span class="titulo-item">PRODUCTO1</span>
+          <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="imagen-item" class="img-item"/>
+          <span class="precio-item">$15.50</span>
+          <button class="boton-item">Agregar al carrito</button>
+        </div>
+       
+        <div class="item">
+            <span class="titulo-item">PRODUCTO2</span>
+            <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="imagen-item" class="img-item"/>
+            <span class="precio-item">$25.25</span>
+            <button class="boton-item">Agregar al carrito</button>
+          </div>
+
+          <div class="item">
+            <span class="titulo-item">PRODUCTO3</span>
+            <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="imagen-item" class="img-item"/>
+            <span class="precio-item">$35.00</span>
+            <button class="boton-item">Agregar al carrito</button>
+          </div>
+
+          <div class="item">
+            <span class="titulo-item">PRODUCTO4</span>
+            <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="imagen-item" class="img-item"/>
+            <span class="precio-item">$40.00</span>
+            <button class="boton-item">Agregar al carrito</button>
+          </div>
+
+          <div class="item">
+            <span class="titulo-item">PRODUCTO5</span>
+            <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="imagen-item" class="img-item"/>
+            <span class="precio-item">$50.00</span>
+            <button class="boton-item">Agregar al carrito</button>
+          </div>
+
+          <div class="item">
+            <span class="titulo-item">PRODUCTO6</span>
+            <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="imagen-item" class="img-item"/>
+            <span class="precio-item">$60.00</span>
+            <button class="boton-item">Agregar al carrito</button>
+          </div>
+
+          <div class="item">
+            <span class="titulo-item">PRODUCTO7</span>
+            <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="imagen-item" class="img-item"/>
+            <span class="precio-item">$70.00</span>
+            <button class="boton-item">Agregar al carrito</button>
+          </div>
+
+      </div>
+
+      <!--Carrito de compras-->
+      <div class="carrito">
+        <div class="header-carrito">
+            <h2>Tu carrito</h2>
+        </div>
+        
+        <div class="carrito-items">
+
+        </div>
+
+        <div class="carrito-items">
+
+        </div>
+        
+
+
+        <div class="carrito-items">
+          <!--
+            <div class="carrito-item">
+                <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="" width="80px">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">PRODUCTO1</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad" ></i>
+                    </div>
+                    <span class="carrito-item-precio">$15.00</span>
+                </div>
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+            </div>
+
+            <div class="carrito-item">
+                <img src="imagenes/primer-plano-reloj-inteligente-pantalla-blanco.jpg" alt="" width="80px">
+                <div class="carrito-item-detalles">
+                    <span class="carrito-item-titulo">Producto2</span>
+                    <div class="selector-cantidad">
+                        <i class="fa-solid fa-minus restar-cantidad"></i>
+                        <input type="text" value="1" class="carrito-item-cantidad" disabled>
+                        <i class="fa-solid fa-plus sumar-cantidad" ></i>
+                    </div>
+                    <span class="carrito-item-precio">$25.00</span>
+                </div>
+                <span class="btn-eliminar">
+                    <i class="fa-solid fa-trash"></i>
+                </span>
+            </div>
+            -->
+        </div>
+
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>TU TOTAL</strong>
+                <span class="carrito-precio-total">
+                    $40.00
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button>
+        </div>
+      </div>
+
+      <div  id="panel">
+        <p class="panel"></p>
+      </div>
+
+    </section>
+  </body>
+</html>
